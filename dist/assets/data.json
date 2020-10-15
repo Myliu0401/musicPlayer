@@ -1,0 +1,29 @@
+[
+    {
+        "image": "../img/1.jpg",
+        "audio": "../assets/十七岁.mp3",
+        "song": "十七岁",
+        "album": "如果有一天",
+        "singer": "刘德华",
+        "duration": 304,
+        "isLike": true
+    },
+    {
+        "image": "../img/2.jpg",
+        "audio": "../assets/赵雷 - 成都.mp3",
+        "song": "成都",
+        "album": "无法长大",
+        "singer": "赵雷",
+        "duration": 328,
+        "isLike": false
+    },
+    {
+        "image": "../img/4.jpg",
+        "audio": "../assets/听妈妈的话.mp3",
+        "song": "听妈妈的话",
+        "album": "依然范特西",
+        "singer": "周杰伦",
+        "duration": 205,
+        "isLike": false
+    }
+]

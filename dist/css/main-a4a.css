@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root,
+body {
+  height: 100%;
+}
+body {
+  background-size: cover;
+}
+body,
+h2,
+dl,
+dt,
+dd {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+#music {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding-top: 15vw;
+  /* 图片部分 */
+  /* 信息部分 */
+  /* 进度条部分 */
+  /* 功能按钮部分 */
+  /* 列表部分 */
+}
+#music .picture {
+  width: 70vw;
+  height: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  /* position: relative;
+        left: 50%;
+        transform: translateX(-50%); */
+  margin: 0 auto;
+  border-radius: 50%;
+}
+#music .picture img {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+#music .information {
+  height: 20vh;
+  text-align: center;
+  margin-top: 6vw;
+  color: #ffffff;
+}
+#music .information h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 3vw;
+}
+#music .information div {
+  font-size: 14px;
+}
+#music .progress {
+  display: flex;
+  height: 8vh;
+  text-align: center;
+  color: #ffffff;
+  align-items: center;
+  font-size: 14px;
+}
+#music .progress .left,
+#music .progress .right {
+  padding: 0 4vw;
+}
+#music .progress .middle {
+  flex: 1 1 auto;
+  position: relative;
+  height: 8vw;
+}
+#music .progress .middle .dian {
+  width: 2vw;
+  height: 2vw;
+  border: 2vw solid rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  border-radius: 50%;
+  background-clip: padding-box;
+  position: absolute;
+  left: -3vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#music .progress .middle .du,
+#music .progress .middle .tiao {
+  height: 0.6vw;
+  background-color: #ffffff;
+  position: absolute;
+  width: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#music .progress .middle .tiao {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+}
+#music .function {
+  width: 100vw;
+  height: 16vw;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#music .function li {
+  width: 20%;
+}
+#music .function li:nth-child(1) {
+  background-image: url(../img/icon-like.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+}
+#music .function li:nth-child(1).Select {
+  background-image: url(../img/icon-like-solid.png);
+}
+#music .function li:nth-child(2) {
+  background-image: url(../img/icon-prev.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+}
+#music .function li:nth-child(3) {
+  background-image: url(../img/icon-play.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+}
+#music .function li:nth-child(3).Select {
+  background-image: url(../img/icon-pause.png);
+}
+#music .function li:nth-child(4) {
+  background-image: url(../img/icon-next.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+}
+#music .function li:nth-child(5) {
+  background-image: url(../img/icon-list.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+}
+#music .list {
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  flex-direction: column;
+  background: linear-gradient(#050505, rgba(170, 170, 170, 0.95));
+  transform: translateY(300px);
+}
+#music .list dt,
+#music .list dd,
+#music .list .close {
+  font-size: 16px;
+  height: 12vw;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  line-height: 12vw;
+}
+#music .list dt,
+#music .list .close {
+  text-align: center;
+}
+#music .list .close {
+  border-bottom: none;
+}
+#music .list dd {
+  padding-left: 3vw;
+}
+#music .list dd.Select {
+  color: #56b287;
+}
+
